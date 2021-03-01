@@ -1,11 +1,10 @@
 
 # Now you can call printinfo function
-printinfo( age = 50, name = "miki" )
-printinfo( name = "miki" )
-
-
-def printinfo( name, age = 35 ):
+def printinfo( name, age = 24 ):
    "This prints a passed info into this function"
    print ("Name: ", name)
-   print ("Age ", age)
+   print ("Age: ", age)
    return
+
+printinfo( age = 27, name = "Gulzar" )
+printinfo( name = "Gulzar" )
