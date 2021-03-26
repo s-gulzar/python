@@ -12,3 +12,5 @@ while (i <= n):
     b = c
     i += 1
     print(c)
+
+

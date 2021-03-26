@@ -1,4 +1,3 @@
-
 def getSingle(val) :
     n = int(val)
     unit = ["Zero", "One","Two", "Three","Four","Five", "Six","Seven","Eight","Nine"]
@@ -46,4 +45,3 @@ def getNumToWord(n):
 
 n = int(input('Enter the number: '))
 getNumToWord(n)
-

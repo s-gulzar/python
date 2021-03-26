@@ -10,14 +10,12 @@ function1()
 ''' Function with Arguments '''
 def function2(intval):
     print('Argument value : ', intval)
-
 function2(100)
 
 ''' Function with multiple Arguments '''
 def function3(arg1, arg2, arg3):
     print('Multi Arugments function', arg1, ' ', arg2, ' ', arg3)
     print(type(arg1), ' ', type(arg2), ' ', type(arg3))
-
 function3(123, 'Gulzar', 'Ahmad')
 
 ''' Arbitrary Arguments, *args 
@@ -25,7 +23,6 @@ function3(123, 'Gulzar', 'Ahmad')
 
 def function4(*arg1):
     print('Arbitratry Arguments :', arg1[1])
-
 function4(123, 'Arbitratry')
 
 ''' Keyword Arguments '''
@@ -86,3 +83,27 @@ def function11(x):
 
 print('Recursion example')
 function11(6)
+
+
+def function12():
+    """  
+
+    This function prints Hello Gulzar 
+    
+    """
+    print("Hello Gulzar")
+
+
+function12.__doc__
+
+#------------------------------------------------------------------------------------
+#Lamada Functions:
+#syntax : lambda arguments:expression
+
+x = lambda a: a + 10
+
+print(x)
+print("Output:", x(20))
+
+y = lambda a,b: a + b
+print("Sum:", y(10,20))
